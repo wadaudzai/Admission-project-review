@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Fork Me! FCC: Test Suite Template</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <nav id= "navbar" style ="margin-top: 25px;">
+      <ul>
+        <li><header><a href=#Introduction>Introduction</a></header></li>
+        <li><a class="nav-link" href=#History>History</a></li>
+        <li><a class="nav-link" href=#Archeticture>Archeticture</a></li>
+        <li><a class="nav-link" href=#Blockchain>Blockchain</a></li>
+        <li><a class="nav-link" href=#Nodes>Nodes</a></li>
+        <li><a class="nav-link" href=#Mining>Mining</a></li>
+        <li><a class="nav-link" href=#Wallets>Wallets</a></li>
+        <li><a class="nav-link" href=#Economics>Economics</a></li>
+      </ul>
+    </nav>
+    <main id="main-doc" style="margin-left:25%;padding:1px 16px;height:1000px;">
+      <header class= "main-section" id="Introduction">
+        <h1>Introduction</h1>
+        <code><br></code>
+        <h3>Cryptocurrency</h3>
+        <p>A cryptocurrency, crypto-currency, or crypto is a digital currency designed to work as a medium of exchange through a computer network that is not reliant on any central authority, such as a government or bank, to uphold or maintain it.</p>
+        <p>Individual coin ownership records are stored in a digital ledger, which is a computerized database using strong cryptography to secure transaction records, to control the creation of additional coins, and to verify the transfer of coin ownership. Despite their name, cryptocurrencies are not necessarily considered to be currencies in the traditional sense and while varying categorical treatments have been applied to them, including classification as commodities, securities, as well as currencies, cryptocurrencies are generally viewed as a distinct asset class in practice. Some crypto schemes use validators to maintain the cryptocurrency. In a proof-of-stake model, owners put up their tokens as collateral. In return, they get authority over the token in proportion to the amount they stake. Generally, these token stakers get additional ownership in the token over time via network fees, newly minted tokens or other such reward mechanisms</p>
+        <p>Cryptocurrency does not exist in physical form (like paper money) and is typically not issued by a central authority. Cryptocurrencies typically use decentralized control as opposed to a central bank digital currency (CBDC). When a cryptocurrency is minted or created prior to issuance or issued by a single issuer, it is generally considered centralized. When implemented with decentralized control, each cryptocurrency works through distributed ledger technology, typically a blockchain, that serves as a public financial transaction database. A cryptocurrency is a tradable digital asset or digital form of money, built on blockchain technology that only exists online. Cryptocurrencies use encryption to authenticate and protect transactions, hence their name. There are currently over a thousand different cryptocurrencies in the world, and their supporters see them as the key to a fairer future economy. Bitcoin, first released as open-source software in 2009, is the first decentralized cryptocurrency. Since the release of bitcoin, many other cryptocurrencies have been created.</p>
+      </header>
+      <section class= "main-section" id="History">
+        <header><h1>History</h1></header>
+        <code><br></code>
+        <p>In 1983, the American cryptographer David Chaum conceived an anonymous cryptographic electronic money called ecash. Later, in 1995, he implemented it through Digicash, an early form of cryptographic electronic payments which required user software in order to withdraw notes from a bank and designate specific encrypted keys before it can be sent to a recipient. This allowed the digital currency to be untraceable by the issuing bank, the government, or any third party.</p>
+        <p>In 1996, the National Security Agency published a paper entitled How to Make a Mint: the Cryptography of Anonymous Electronic Cash, describing a Cryptocurrency system, first publishing it in an MIT mailing list and later in 1997, in The American Law Review (Vol. 46, Issue 4).</p>
+        <p>In 1998, Wei Dai published a description of "b-money", characterized as an anonymous, distributed electronic cash system. Shortly thereafter, Nick Szabo described bit gold. Like bitcoin and other cryptocurrencies that would follow it, bit gold (not to be confused with the later gold-based exchange, BitGold) was described as an electronic currency system which required users to complete a proof of work function with solutions being cryptographically put together and published.</p>
+        <p>In 2009, the first decentralized cryptocurrency, bitcoin, was created by presumably pseudonymous developer Satoshi Nakamoto. It used SHA-256, a cryptographic hash function, in its proof-of-work scheme. In April 2011, Namecoin was created as an attempt at forming a decentralized DNS, which would make internet censorship very difficult. Soon after, in October 2011, Litecoin was released. It used scrypt as its hash function instead of SHA-256. Another notable cryptocurrency, Peercoin, used a proof-of-work/proof-of-stake hybrid.</p>
+          <h3>Formal Definition</h3>
+          <p>According to Jan Lansky, a cryptocurrency is a system that meets six conditions:
+           <ol>
+            <li>The system does not require a central authority; its state is maintained through distributed consensus.</li>
+            <li>The system keeps an overview of cryptocurrency units and their ownership.</li>
+            <li>The system defines whether new cryptocurrency units can be created. If new cryptocurrency units can be created, the system defines the circumstances of their origin and how to determine the ownership of these new units.</li>
+            <li>Ownership of cryptocurrency units can be proved exclusively cryptographically.</li>
+            <li>The system allows transactions to be performed in which ownership of the cryptographic units is changed. A transaction statement can only be issued by an entity proving the current ownership of these units.</li>
+            <li>If two different instructions for changing the ownership of the same cryptographic units are simultaneously entered, the system performs at most one of them.</li>
+           </ol>
+            In March 2018, the word cryptocurrency was added to the Merriam-Webster Dictionary.
+          </p>
+          <h3>Altcoins</h3>
+          <p>Tokens, cryptocurrencies, and other types of digital assets that are not bitcoin are collectively known as alternative cryptocurrencies, typically shortened to "altcoins" or "alt coins", or disparagingly known as "shitcoins". Paul Vigna of The Wall Street Journal also described altcoins as "alternative versions of bitcoin" given its role as the model protocol for altcoin designers. The term is commonly used to describe coins and tokens created after bitcoin.</p>
+          <p>Altcoins often have underlying differences with bitcoin. For example, Litecoin aims to process a block every 2.5 minutes, rather than bitcoin's 10 minutes, which allows Litecoin to confirm transactions faster than bitcoin. Another example is Ethereum, which has smart contract functionality that allows decentralized applications to be run on its blockchain. Ethereum was the most used blockchain in 2020, according to Bloomberg News. In 2016, it had the largest "following" of any altcoin, according to the New York Times.</p>
+      </section>
+      <section class="main-section" id="Archeticture"> 
+        <header><h1>Architecture</h1></header>
+        <code><br></code>
+        <p>Decentralized cryptocurrency is produced by the entire cryptocurrency system collectively, at a rate which is defined when the system is created and which is publicly known. In centralized banking and economic systems such as the US Federal Reserve System, corporate boards or governments control the supply of currency. In the case of decentralized cryptocurrency, companies or governments cannot produce new units, and have not so far provided backing for other firms, banks or corporate entities which hold asset value measured in it. The underlying technical system upon which decentralized cryptocurrencies are based was created by the group or individual known as Satoshi Nakamoto.</p>
+        <p>As of May 2018, over 1,800 cryptocurrency specifications existed. Within a proof-of-work cryptocurrency system such as Bitcoin, the safety, integrity and balance of ledgers is maintained by a community of mutually distrustful parties referred to as miners: who use their computers to help validate and timestamp transactions, adding them to the ledger in accordance with a particular timestamping scheme. In a proof-of-stake (PoS) blockchain, transactions are validated by holders of the associated cryptocurrency, sometimes grouped together in stake pools.</p>
+        <p>Most cryptocurrencies are designed to gradually decrease the production of that currency, placing a cap on the total amount of that currency that will ever be in circulation. Compared with ordinary currencies held by financial institutions or kept as cash on hand, cryptocurrencies can be more difficult for seizure by law enforcement.</p>
+      </section>
+      <section class= "main-section" id="Blockchain">
+       <header><h1>Blockchain</h1></header>
+       <code><br></code>
+       <p>The validity of each cryptocurrency's coins is provided by a blockchain. A blockchain is a continuously growing list of records, called blocks, which are linked and secured using cryptography. Each block typically contains a hash pointer as a link to a previous block, a timestamp and transaction data. By design, blockchains are inherently resistant to modification of the data. It is "an open, distributed ledger that can record transactions between two parties efficiently and in a verifiable and permanent way". For use as a distributed ledger, a blockchain is typically managed by a peer-to-peer network collectively adhering to a protocol for validating new blocks. Once recorded, the data in any given block cannot be altered retroactively without the alteration of all subsequent blocks, which requires collusion of the network majority.</p>
+       <p>Blockchains are secure by design and are an example of a distributed computing system with high Byzantine fault tolerance. Decentralized consensus has therefore been achieved with a blockchain.</p>
+      </section>
+      <section class="main-section" id="Nodes">
+        <header><h1>Nodes</h1></header>
+        <code><br></code>
+        <p>In the world of cryptocurrency, a node is a computer that connects to a cryptocurrency network. The node supports the relevant cryptocurrency's network through either; relaying transactions, validation or hosting a copy of the blockchain. In terms of relaying transactions each network computer (node) has a copy of the blockchain of the cryptocurrency it supports, when a transaction is made the node creating the transaction broadcasts details of the transaction using encryption to other nodes throughout the node network so that the transaction (and every other transaction) is known.</p>
+        <p>Node owners are either volunteers, those hosted by the organisation or body responsible for developing the cryptocurrency blockchain network technology, or those who are enticed to host a node to receive rewards from hosting the node network.</p>
+        <h3>Timestamping</h3>
+        <p>Cryptocurrencies use various timestamping schemes to "prove" the validity of transactions added to the blockchain ledger without the need for a trusted third party.</p>
+        <p>The first timestamping scheme invented was the proof-of-work scheme. The most widely used proof-of-work schemes are based on SHA-256 and scrypt.</p>
+        <p>Some other hashing algorithms that are used for proof-of-work include CryptoNight, Blake, SHA-3, and X11.</p>
+        <p>The proof-of-stake is a method of securing a cryptocurrency network and achieving distributed consensus through requesting users to show ownership of a certain amount of currency. It is different from proof-of-work systems that run difficult hashing algorithms to validate electronic transactions. The scheme is largely dependent on the coin, and there's currently no standard form of it. Some cryptocurrencies use a combined proof-of-work and proof-of-stake scheme.</p>
+      </section>
+      <section class="main-section" id="Mining">
+        <header><h1>Mining</h1></header>
+        <p>In cryptocurrency networks, mining is a validation of transactions. For this effort, successful miners obtain new cryptocurrency as a reward. The reward decreases transaction fees by creating a complementary incentive to contribute to the processing power of the network. The rate of generating hashes, which validate any transaction, has been increased by the use of specialized machines such as FPGAs and ASICs running complex hashing algorithms like SHA-256 and scrypt. This arms race for cheaper-yet-efficient machines has existed since the first cryptocurrency, bitcoin, was introduced in 2009.</p>
+        <p>With more people venturing into the world of virtual currency, generating hashes for validation has become more complex over time, forcing miners to invest increasingly large sums of money to improve computing performance. Consequently, the reward for finding a hash has diminished and often does not justify the investment in equipment and cooling facilities (to mitigate the heat the equipment produces), and the electricity required to run them. Popular regions for mining include those with inexpensive electricity, a cold climate, and jurisdictions with clear and conducive regulations. As of July 2019, bitcoin's electricity consumption is estimated to about 7 gigawatts, 0.2% of the global total, or equivalent to that of Switzerland.</p>
+        <p>Some miners pool resources, sharing their processing power over a network to split the reward equally, according to the amount of work they contributed to the probability of finding a block. A "share" is awarded to members of the mining pool who present a valid partial proof-of-work.</p>
+        <p>As of February 2018, the Chinese Government has halted trading of virtual currency, banned initial coin offerings and shut down mining. Many Chinese miners have since relocated to Canada and Texas. One company is operating data centers for mining operations at Canadian oil and gas field sites, due to low gas prices. In June 2018, Hydro Quebec proposed to the provincial government to allocate 500 MW to crypto companies for mining. According to a February 2018 report from Fortune, Iceland has become a haven for cryptocurrency miners in part because of its cheap electricity.</p>
+        <p>In March 2018, the city of Plattsburgh in upstate New York put an 18-month moratorium on all cryptocurrency mining in an effort to preserve natural resources and the "character and direction" of the city.</p>
+      </section>
+      <section class="main-section" id="Wallets">
+        <header><h1>Wallets</h1></header>
+        <p>A cryptocurrency wallet stores the public and private "keys" (address) or seed which can be used to receive or spend the cryptocurrency. With the private key, it is possible to write in the public ledger, effectively spending the associated cryptocurrency. With the public key, it is possible for others to send currency to the wallet.</p>
+        <p>There exist multiple methods of storing keys or seed in a wallet from using paper wallets which are traditional public, private or seed keys written on paper to using hardware wallets which are dedicated hardware to securely store your wallet information, using a digital wallet which is a computer with a software hosting your wallet information, hosting your wallet using an exchange where cryptocurrency is traded. or by storing your wallet information on a digital medium such as plaintext.</p>
+      </section>
+      <section id="Economics">
+        <header><h1>Economics</h1></header>
+        <p>Cryptocurrencies are used primarily outside existing banking and governmental institutions and are exchanged over the Internet.</p>
+        <p><strong>Block Rewards: </strong>Proof-of-work cryptocurrencies, such as bitcoin, offer block rewards incentives for miners. There has been an implicit belief that whether miners are paid by block rewards or transaction fees does not affect the security of the blockchain, but a study suggests that this may not be the case under certain circumstances.</p>
+        <p>The rewards paid to miners increase the supply of the cryptocurrency. By making sure that verifying transactions is a costly business, the integrity of the network can be preserved as long as benevolent nodes control a majority of computing power. The verification algorithm requires a lot of processing power, and thus electricity in order to make verification costly enough to accurately validate public blockchain. Not only do miners have to factor in the costs associated with expensive equipment necessary to stand a chance of solving a hash problem, they further must consider the significant amount of electrical power in search of the solution. Generally, the block rewards outweigh electricity and equipment costs, but this may not always be the case.</p>
+        <p>The current value, not the long-term value, of the cryptocurrency supports the reward scheme to incentivize miners to engage in costly mining activities. Some sources claim that the current bitcoin design is very inefficient, generating a welfare loss of 1.4% relative to an efficient cash system. The main source for this inefficiency is the large mining cost, which is estimated to be US$360 Million per year. This translates into users being willing to accept a cash system with an inflation rate of 230% before being better off using bitcoin as a means of payment. However, the efficiency of the bitcoin system can be significantly improved by optimizing the rate of coin creation and minimizing transaction fees. Another potential improvement is to eliminate inefficient mining activities by changing the consensus protocol altogether.</p>
+        <p><strong>Transaction fees: </strong>Transaction fees for cryptocurrency depend mainly on the supply of network capacity at the time, versus the demand from the currency holder for a faster transaction. The currency holder can choose a specific transaction fee, while network entities process transactions in order of highest offered fee to lowest. Cryptocurrency exchanges can simplify the process for currency holders by offering priority alternatives and thereby determine which fee will likely cause the transaction to be processed in the requested time.</p>
+        <p>For Ether, transaction fees differ by computational complexity, bandwidth use, and storage needs, while bitcoin transaction fees differ by transaction size and whether the transaction uses SegWit. In September 2018, the median transaction fee for ether corresponded to $0.017, while for bitcoin it corresponded to $0.55.</p>
+        <p>Some cryptocurrencies have no transaction fees, and instead rely on client-side proof-of-work as the transaction prioritization and anti-spam mechanism.</p>
+      </section>
+    </main>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <script  src="js/index.js"></script>
+  </body>
+</html>
